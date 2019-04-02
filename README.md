@@ -11,6 +11,7 @@ const [
   popContext,
   clearContext
 ] = useBreadcrumbList();
+// or useBreadcrumbList([/** list of predefined contexts */], 10);
 
 // code
 pushContext({
